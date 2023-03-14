@@ -59,3 +59,16 @@ D.Layout Patterns:
 -Sidebar.
 -Multi-column/magazine.
 -Asymmetry/Experimental.
+
+Switching Flex-Direction to Column.
+
+-Initial display property is horizontal on the main axis.
+-Setting the elements to flex-direction: column; changes the direction of the main axis by 90 degrees and therefore the display ends up on a vertival axix.[top-bottm]
+
+-Cross axis will lie on the horizontal axis which was previously on the vertical axis.
+
+NB-every thing has been shifted by 90 degrees.
+
+i.e-align-items aligns items [horizontally], no onger vertically.
+-justify-content aligns items [vertically], no longer horizontally.
+-gap acts like [margin-bottom], no longer like margin-right.
