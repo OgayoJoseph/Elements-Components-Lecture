@@ -67,8 +67,16 @@ Switching Flex-Direction to Column.
 
 -Cross axis will lie on the horizontal axis which was previously on the vertical axis.
 
-NB-every thing has been shifted by 90 degrees.
+## NB every thing has been shifted by 90 degrees.
 
 i.e-align-items aligns items [horizontally], no onger vertically.
 -justify-content aligns items [vertically], no longer horizontally.
 -gap acts like [margin-bottom], no longer like margin-right.
+
+## NB take aways from BUILDING AN ACCORDION COMPONENT.
+
+-OPEN STATE.
+-SETTIGN FLEX CONTAINER TO FLEX DIRECTION COLUMN.
+-USING CSS GRID TO SET GRID TEMPLATE COLUMN AND COLUMN GAPS
+
+-True power of flex box and css grid box to design webpages.
