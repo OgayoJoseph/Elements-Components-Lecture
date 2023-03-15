@@ -80,3 +80,11 @@ i.e-align-items aligns items [horizontally], no onger vertically.
 -USING CSS GRID TO SET GRID TEMPLATE COLUMN AND COLUMN GAPS
 
 -True power of flex box and css grid box to design webpages.
+
+VERTICAL CENTERING with absolute posiiton and transformation.
+
+-Setting ellement to 50% in css i.e[top:50%] element will move 50% of parent container's height.
+
+-Therefore we use the tranform property with translate value (ignoring the x horizontal) value. i.e[transform:translate(0,-50%)]
+
+-The code will move the elemnt -50% of actual element's height fitting it exactly at the center.
