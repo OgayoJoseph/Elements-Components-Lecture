@@ -88,3 +88,5 @@ VERTICAL CENTERING with absolute posiiton and transformation.
 -Therefore we use the tranform property with translate value (ignoring the x horizontal) value. i.e[transform:translate(0,-50%)]
 
 -The code will move the elemnt -50% of actual element's height fitting it exactly at the center.
+
+Building a table component.
