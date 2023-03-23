@@ -1,0 +1,61 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* 
+MAIN COLOR: #087f5b 
+GREY COLOR: #343a40
+*/
+
+/* UNIVERSAL STYLE */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------------------------ */
+/* GENERAL STYLES */
+/* ------------------------ */
+.component {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  line-height: 1;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+/* BUTTONS */
+
+.btn-left,
+.btn-right {
+  width: 24px;
+  height: 24px;
+  stroke: #087f5b;
+  align-items: center;
+  /* margin-top: 12px; */
+}
+
+/* .btn-left {
+  margin-right: 16px;
+  align-items: center;
+}
+
+.btn-right {
+  margin-left: 16px;
+} */
+
+/* NUMBERS */
+
+.number {
+  align-items: center;
+  margin: 16px;
+}
+
+.dots {
+}
