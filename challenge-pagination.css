@@ -28,34 +28,47 @@ GREY COLOR: #343a40
   margin-top: 100px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 32px;
 }
 
 /* BUTTONS */
 
-.btn-left,
-.btn-right {
-  width: 24px;
+.btn {
+  stroke: #fff;
+  border: 1px solid #087f5b;
+  background-color: #087f5b;
   height: 24px;
-  stroke: #087f5b;
+  width: 24px;
+  border-radius: 100px;
+
+  cursor: pointer;
+
+  display: flex;
   align-items: center;
-  /* margin-top: 12px; */
+  justify-content: center;
 }
 
-/* .btn-left {
-  margin-right: 16px;
-  align-items: center;
+.btn-left {
 }
 
 .btn-right {
-  margin-left: 16px;
-} */
+}
 
 /* NUMBERS */
 
 .number {
-  align-items: center;
-  margin: 16px;
+  /* align-items: center; */
+  /* margin: 16px; */
 }
 
+.number:nth-child(5) {
+  /* border: solid #087f5b;
+  border-radius: 100px; */
+}
+
+/* DOTS */
+
 .dots {
+  /* align-items: center; */
 }
